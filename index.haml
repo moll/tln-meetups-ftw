@@ -1,0 +1,32 @@
+!!!
+%html(lang="en")
+  %head
+    %meta(charset="utf-8")
+    %link(rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.3.0/build/cssreset/reset-min.css")
+
+    :css
+      html, body {
+        height: 100%;
+      }
+      body {
+        position: relative;
+      }
+      iframe {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        height: 100%;
+        border: 0;
+      }
+      #meetups {
+        left: 0;
+        width: 30%;
+      }
+      #tweets {
+        left: 30%;
+        width: 70%;
+      }
+
+  %body
+    %iframe#meetups(src="meetups.html")
+    %iframe#tweets(src="http://bigscreen.cannedapps.com/")

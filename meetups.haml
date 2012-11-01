@@ -1,0 +1,51 @@
+!!!
+%html(lang="en")
+  %head
+    %link(rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.3.0/build/cssreset/reset-min.css")
+
+    :css
+      html, body {
+        height: 100%;
+      }
+
+      body {
+        background: #dddddd;
+        text-align: center;
+        position: relative;
+      }
+      div {
+        position: absolute;
+        left: 30px;
+        right: 30px;
+      }
+      #html5 {
+        top: 60px;
+        bottom: 50%;
+        background: url("html5.png") center/contain no-repeat;
+      }
+      #android {
+        top: 50%;
+        bottom: 60px;
+        background: url("android.png") center/contain no-repeat;
+      }
+
+      p {
+        position: absolute;
+        display: block;
+        width: 100%;
+        font-family: Helvetica, sans-serif;
+        color: #4669b3;
+        font-size: 13px;
+      }
+      #html5-url {
+        top: 30px;
+      }
+      #android-url {
+        bottom: 30px;
+      }
+
+  %body
+    #html5
+    #android
+    %p#html5-url Tallinn HTML5 Meetup (html5.ee)
+    %p#android-url Tallinn Android Meetup (meetup.com)
