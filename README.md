@@ -15,3 +15,7 @@ Enjoy the profit!
 Be sure to check out [Tallinn HTML5 Meetup](http://html5.ee) and [Tallinn Android Meetup](http://www.meetup.com/Tallinn-Android-Developers/).
 
 With Interlove, [Andri](http://themoll.com).
+
+### License
+
+Everything's licensed under the [Oracle HelloWorld license](https://news.ycombinator.com/item?id=2587678).
