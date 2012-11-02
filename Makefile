@@ -5,7 +5,7 @@ watch:
 	@while true; do $(MAKE) -s; sleep 0.3; done
 
 deploy:
-	rsync -nrvziOt --delete-after -f "+ *.html" -f "+ *.png" -f "- *" . "$(DEST)"
+	rsync -rvziOt --delete-after -f "+ *.html" -f "+ *.png" -f "- *" . "$(DEST)"
 
 %.html : %.haml Makefile 
 	@echo "Compiling $<..."
